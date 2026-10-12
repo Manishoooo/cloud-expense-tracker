@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files (never commit real configuration)
+.env
+.env.*
+!.env.example
+
+# Firebase local files
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Misc
+*.log
+.DS_Store
+.vscode/
